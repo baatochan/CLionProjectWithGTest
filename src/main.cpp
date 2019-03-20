@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Printer.hpp"
 
 int main() {
-	std::cout << "Hello, World!" << std::endl;
+	Printer printer;
+	std::cout << printer.printHelloWorld() << std::endl;
+	std::cout << printer.print420() << std::endl;
 	return 0;
 }

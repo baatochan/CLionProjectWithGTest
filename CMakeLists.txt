@@ -11,8 +11,8 @@ endif()
 ### Basic settings ###
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES )
-set(TESTS_SOURCE_FILES )
+set(SOURCE_FILES src/Printer.hpp src/Printer.cpp)
+set(TESTS_SOURCE_FILES tests/PrinterTests.cpp)
 
 ### Basic target - Terminal Snake ###
 add_executable(CLionProjectWithGTest src/main.cpp ${SOURCE_FILES})
